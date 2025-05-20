@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    background-color: #1a1a1a; /* fundo escuro */
+    color: #00FF7F; /* verde claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, .lead, p {
+    color: #00FF7F;
+}
+
+header {
+    padding: 2rem 0;
+    border-bottom: 2px solid #00FF7F;
+}
+
+img {
+    border: 3px solid #00FF7F;
+    box-shadow: 0 0 10px #00FF7F;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+a {
+    color: #00FF7F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #98FB98; /* verde mais claro ao passar o mouse */
+}
+
+.btn-primary {
+    background-color: #00FF7F;
+    border-color: #00FF7F;
+    color: #1a1a1a;
+}
+
+.btn-primary:hover {
+    background-color: #32CD32;
+    border-color: #32CD32;
+    color: #1a1a1a;
+}
